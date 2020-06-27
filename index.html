@@ -1,47 +1,594 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>Simranjeet - Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Simranjeet - Software Engineer | Startup Guy | Computer Science Grad" />
+	<meta name="author" content="simranjeet" />
+	
+	<!--
+		Load Fonts
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+	
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/new-skin.css" />
+	<link rel="stylesheet" href="css/green.css" />
+	<link rel="stylesheet" href="css/dark.css" />
+	
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Simranjeet Singh</h1>
-						<p>Full Stack Developer &nbsp;&bull;&nbsp; CS Graduate </p>
-						<nav>
-							<ul>
-								<li><a href="https://www.linkedin.com/in/simranjeet-singh-8b267b132/" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/ToddlerSam" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:sdsimranjeet@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+</head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; <a href="#">Full Website Coming Soon</a>.</span>
-					</footer>
-
+<body>
+	<div class="page new-skin">
+		
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+
+		<!-- background -->
+		<div class="background"></div>
+
+		<!--
+			Container
+		-->
+		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+
+			<!--
+				Header
+			-->
+			<header class="header">
+
+				<!-- menu -->
+				<div class="top-menu">
+					<ul>
+						<li class="active">
+							<a href="#about-card">
+								<span class="icon ion-person"></span>
+								<span class="link">About</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resume-card">
+								<span class="icon ion-android-list"></span>
+								<span class="link">Resume</span>
+							</a>
+						</li>
+						<li>
+							<a href="#contacts-card">
+								<span class="icon ion-at"></span>
+								<span class="link">Contact</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</header>
+
+			<!--
+				Card - Started
+			-->
+			<div class="card-started" id="home-card">
+
+				<!--
+					Profile
+				-->
+				<div class="profile">
+
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(images/banner.jpg);background-size: contain;background-color: #012933;"></div>
+
+					<!-- profile photo -->
+					<div class="image">
+						<img src="images/profile.jpg" alt="" />
+					</div>
+
+					<!-- profile titles -->
+					<div class="title">Simranjeet Singh</div>
+					<div class="subtitle">Software Engineer</div>
+
+					<!-- profile socials -->
+					<div class="social">
+						<a target="_blank" href="https://github.com/ToddlerSam"><span class="fab fa-github"></span></a>
+						<a target="_blank" href="https://www.linkedin.com/in/simranjeet-singh-8b267b132"><span class="fab fa-linkedin"></span></a>
+						<a target="_blank" href="mailto:sdsimranjeet@gmail.com"><span class="fa fa-envelope"></span></a>
+						<a target="_blank" href="https://twitter.com/simranjeet_97"><span class="fab fa-twitter"></span></a>
+					</div>
+					
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a href="/images/resume-simranjeet.pdf" download="" class="lnk">
+							<span class="text">Download CV</span>
+							<span class="ion ion-archive"></span>
+						</a>
+						<a href="#" class="lnk discover">
+							<span class="text">Contact Me</span>
+							<span class="arrow"></span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- 
+				Card - About
+			-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+
+					<!-- 
+						About 
+					-->
+					<div class="content about">
+
+						<!-- title -->
+						<div class="title">About Me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="text-box">
+									<ul style="list-style: disc; padding-left: 12px; font-size: 14px;">
+										<li style="margin-bottom: 8px;">A software Engineer with a solid foundation in computer science with strong competencies in data structures and algorithms.</li>
+										<li style="margin-bottom: 8px;">Working in a startup environment which provided me with varied experience in different aspects of building a scalable product, well versed in building and owning products end to end.</li>
+										<li style="margin-bottom: 8px;">Turning product plans into code, in close collaboration with product managers, and other team players.</li>
+										<li style="margin-bottom: 8px;">A language agnostic person and have ability of quickly grasping new language/technology in a short span of time.</li>
+										<li style="margin-bottom: 8px;">Excellent exposure to understand business process along with technical aspects of the Agile environment.</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Fun Fact
+					-->
+					<div class="content fuct">
+
+						<!-- title -->
+						<div class="title">Fun Fact</div>
+
+						<!-- content -->
+						<div class="row fuct-items">
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-code-working"></span></div>
+									<div class="name">150000 Lines of Code</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-trophy"></span></div>
+									<div class="name">6 Projects Completed</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-coffee"></span></div>
+									<div class="name">1 000 Cups of coffee</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-flag"></span></div>
+									<div class="name">Dream to own a Mustang</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="card-wrap">
+
+					<!--
+						Resume
+					-->
+					<div class="content resume">
+
+						<!-- title -->
+						<div class="title">Resume</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-briefcase"></i></div>
+									<div class="name">Experience</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">May 2019 - Present</div>
+										<div class="name">Software Engineer</div>
+										<div class="company">Lybrate Inc.</div>
+										<ul style="list-style-type: disc; padding-left: 18px; margin-bottom: 18px;">
+											<li style="font-weight: bold;">Messaging</li>
+											<li style="list-style: none;">
+												<ul style="list-style: circle;padding-left: 24px;">
+													<li>
+														Developed Chat for Mobile and Desktop Web
+													</li>
+													<li>
+														Implemented features such as Search, ability to share media and documents along with text message,  support for messages with rich text.
+													</li>
+													<li>
+														Implemented Web Sockets to fetch received messages and notifications.
+													</li>
+													<li>
+														Implemented Web Workers to asynchronously display unread messages count in other pages
+													</li>
+												</ul>
+											</li>
+										</ul>
+										<ul style="list-style-type: disc; padding-left: 18px; margin-bottom: 18px;">
+											<li style="font-weight: bold;">Cart(e-commerce)</li>
+											<li style="list-style: none;">
+												<ul style="list-style: circle;padding-left: 24px;">
+													<li>
+														Improvised Product Search, removed unnecessary network calls and started showing configurable prefetched response for better user experience.
+													</li>
+													<li>
+														Developed configurable widgets for displaying offers and products.
+													</li>
+													<li>
+														Implemented Server-Side Rendering for listing and Detail pages which improved Page Speed and resulted in better SEO.
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="resume-item">
+										<div class="date">Jan 2019 - Apr 2019</div>
+										<div class="name">SWE - Intern</div>
+										<div class="company">Lybrate Inc.</div>
+										<ul style="list-style-type: disc; padding-left: 18px; margin-bottom: 18px;">
+											<li style="font-weight: bold;">GoodMD (Social Media for Doctors)</li>
+											<li style="list-style: none;">
+												<ul style="list-style: circle;padding-left: 24px;">
+													<li>
+														Revamped Post Composer, developed support for uploading multiple media files, Tag people by using @ and add hashtags.
+													</li>
+													<li>
+														Implemented virtual scrolling and lazy loading of media, which improved Page Scroll Experience and prevented lags.
+													</li>
+													<li>
+														Improved Page behavior with keyboard in Mobile Web, which resulted in increased number of interactions.
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- education -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-university"></i></div>
+									<div class="name">Education</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h">
+										<div class="date">2015 - 2019</div>
+										<div class="name">Chandigarh University</div>
+										<div class="company">Punjab</div>
+										<p>
+											Bachelor's Degree in Computer Science &amp; Engineering with CGPA of 8.0
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Skills
+					-->
+					<div class="content skills">
+
+						<!-- title -->
+						<div class="title">My Skills</div>
+					
+						<!-- content -->
+						<div class="row">
+						
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="ion ion-code"></i></div>
+										<div class="name">Languages</div>
+									</div>
+									<ul>
+										<li class="border-line-h"> 
+											<div class="name">Java</div>
+											<div class="progress">
+												<div class="percentage" style="width:85%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h"> 
+											<div class="name">Javascript</div>
+											<div class="progress">
+												<div class="percentage" style="width:90%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h"> 
+											<div class="name">Typescript</div>
+											<div class="progress">
+												<div class="percentage" style="width:85%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">Python</div>
+											<div class="progress">
+												<div class="percentage" style="width:70%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">HTML5</div>
+											<div class="progress">
+												<div class="percentage" style="width:90%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">CSS</div>
+											<div class="progress">
+												<div class="percentage" style="width:90%;"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list circles">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-database"></i></div>
+										<div class="name">Database</div>
+									</div>
+									<ul>
+										<li> 
+											<div class="name">Microsoft Sql Server</div>
+											<div class="progress p70">
+												<span>70%</span>
+											</div>
+										</li>
+										<li> 
+											<div class="name">PostgreSql</div>
+											<div class="progress p65">
+												<span>65%</span>
+											</div>
+										</li>
+										<li> 
+											<div class="name">MySql</div>
+											<div class="progress p80">
+												<span>80%</span>
+											</div>
+										</li>
+										<li> 
+											<div class="name">Mongo</div>
+											<div class="progress p80">
+												<span>80%</span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="ion ion-android-list"></i></div>
+										<div class="name">Web Frameworks</div>
+									</div>
+									<ul>
+										<li> 
+											<div class="name">Spring MVC</div>
+										</li>
+										<li> 
+											<div class="name">Spring Boot</div>
+										</li>
+										<li> 
+											<div class="name">React</div>
+										</li>
+										<li> 
+											<div class="name">Angular 2+</div>
+										</li>
+										<li> 
+											<div class="name">AngularJS</div>
+										</li>
+										<li> 
+											<div class="name">NodeJS</div>
+										</li>
+										<li> 
+											<div class="name">Express</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="ion ion-cube"></i></div>
+										<div class="name">Miscellaneous</div>
+									</div>
+									<ul>
+										<li> 
+											<div class="name">Message Broker - KAFKA, RabbitMQ</div> 
+										</li>
+										<li> 
+											<div class="name">REST doc - SWAGGER 2</div>
+										</li>
+										<li> 
+											<div class="name">Web Services - REST and SOAP</div>
+										</li>
+										<li> 
+											<div class="name">Version Control Repo: GitHub, Gitlab</div>
+										</li>
+										<li> 
+											<div class="name">Issue Tracker – JIRA, Tracker</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="clear"></div>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Conacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Get in Touch</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Address . . . . .</strong> Chandigarh, India</li>
+										<li><strong>Email . . . . .</strong> sdsimranjeet@gmail.com</li>
+										<li><strong>Phone . . . . .</strong> +91 9781996556</li>
+										<li><strong>Job Status . . . . .</strong> Looking for a Change</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Contact Form
+					-->
+					<div class="content contacts" style="margin-bottom: 0px;">
+
+						<!-- title -->
+						<div class="title">Contact Form</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="contact_form">
+									<form id="cform" method="post">
+										<div class="row">
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="name" placeholder="Full Name" />
+												</div>
+											</div>
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="email" placeholder="Email Address" />
+												</div>
+											</div>
+											<div class="col col-d-12 col-t-12 col-m-12">
+												<div class="group-val">
+													<textarea name="message" placeholder="Your Message"></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="align-left">
+											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
+												<span class="text">Send Message</span>
+												<span class="arrow"></span>
+											</a>
+										</div>
+									</form>
+									<div class="alert-success">
+										<p>Thanks, your message is sent successfully.</p>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/jquery.slimscroll.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
+	
+</body>
 </html>

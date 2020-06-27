@@ -1,2 +1,2 @@
 # ToddlerSam.github.io
-Simple Portfolio Created using HTML and CSS 
+Portfolio Created using HTML, CSS and Js. 
