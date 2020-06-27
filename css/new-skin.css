@@ -439,7 +439,6 @@ input[type="file"] {
 	margin-right: 8px;
 	position: relative;
 	left: 0;
-	top: 15px;
 	float: left;
 }
 
@@ -472,7 +471,6 @@ input[type="file"] {
 .header .top-menu ul li a .icon {
 	margin: 0 auto;
 	position: relative;
-	top: 0;
 	left: 0;
 	display: block;
 	width: 40px;
@@ -486,12 +484,18 @@ input[type="file"] {
 	display: none;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 1200px){
+	.header{
+		top: 40px !important;
+	}
+}
+
+@media (min-width: 561px) and (max-width: 1199px) {
 	.header {
 		margin-left: -85px;
 		position: fixed;
 		left: auto;
-		top: 20px;
+		top: 40px;
 		width: 72px;
 		max-width: 72px;
 		height: auto;
@@ -552,7 +556,6 @@ input[type="file"] {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		top: 90%;
 		width: auto;
 		height: 64px;
 		max-width: 100%;
